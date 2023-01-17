@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url('https://utils-computervisiondeveloper-tmp.s3.amazonaws.com/imgs/bkg.jpg');
+  background-image: url(../assets/imgs/bkg.jpg);
   background-size: cover;
 }
 
@@ -61,7 +61,7 @@ canvas {
   width:100%;
   height: 200px;
   font-size: 30px;
-  background-image: url(https://utils-computervisiondeveloper-tmp.s3.amazonaws.com/imgs/accept_button.png)
+  background-image: url(../assets/imgs/accept_button.png)
 }
 
 .register-cancel-button {
@@ -69,7 +69,7 @@ canvas {
   width:100%;
   height: 200px;
   font-size: 30px;
-  background-image: url(https://utils-computervisiondeveloper-tmp.s3.amazonaws.com/imgs/cancel_button.png)
+  background-image: url(../assets/imgs/cancel_button.png)
 }
 
 .login-button {
@@ -77,7 +77,7 @@ canvas {
   width:100%;
   height: 200px;
   font-size: 30px;
-  background-image: url(https://utils-computervisiondeveloper-tmp.s3.amazonaws.com/imgs/login_button.png)
+  background-image: url(../assets/imgs/login_button.png)
 
 }
 
@@ -86,7 +86,7 @@ canvas {
   width:100%;
   height: 200px;
   font-size: 30px;
-  background-image: url(https://utils-computervisiondeveloper-tmp.s3.amazonaws.com/imgs/register_new_user_button.png)
+  background-image: url(../assets/imgs/register_new_user_button.png)
 
 }
 
@@ -95,7 +95,7 @@ canvas {
   width:100%;
   height: 200px;
   font-size: 30px;
-  background-image: url(https://utils-computervisiondeveloper-tmp.s3.amazonaws.com/imgs/go_back_button.png)
+  background-image: url(../assets/imgs/go_back_button.png)
 
 }
 
@@ -104,7 +104,7 @@ canvas {
   width:100%;
   height: 200px;
   font-size: 30px;
-  background-image: url(https://utils-computervisiondeveloper-tmp.s3.amazonaws.com/imgs/download_logs_icon.png)
+  background-image: url(../assets/imgs/download_logs_icon.png)
 
 }
 
@@ -187,7 +187,7 @@ canvas {
   width:100%;
   height: 200px;
   font-size: 30px;
-  background-image: url(https://utils-computervisiondeveloper-tmp.s3.amazonaws.com/imgs/logout_button.png)
+  background-image: url(../assets/imgs/logout_button.png)
 }
 
 .logout-button:hover {
@@ -209,7 +209,7 @@ canvas {
   width:100%;
   height: 200px;
   font-size: 30px;
-  background-image: url(https://utils-computervisiondeveloper-tmp.s3.amazonaws.com/imgs/admin_button.png)
+  background-image: url(../assets/imgs/admin_button.png)
 }
 
 .admin-button:hover {
@@ -237,3 +237,4 @@ canvas {
   visibility: visible;
   transition: visibility 0.5s;
 }
+
