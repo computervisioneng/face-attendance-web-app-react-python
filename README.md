@@ -110,3 +110,5 @@ Update EC2 security-group settings for your instance to allow HTTP traffic to po
     npm install
     
     npm start
+    
+You may need to adjust your browser to allow access to your webcam through an unsecure conection from the EC2 ip address. In chrome this setting is adjusted here __chrome://flags/#unsafely-treat-insecure-origin-as-secure__.
