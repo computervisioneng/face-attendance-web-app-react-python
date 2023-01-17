@@ -1,0 +1,239 @@
+/* Style for the entire application */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('https://utils-computervisiondeveloper-tmp.s3.amazonaws.com/imgs/bkg.jpg');
+  background-size: cover;
+}
+
+/* Style for the App component container */
+.app {
+  width: 100%; /* Set width to 100% */
+  height: 100vh; /* Fix the height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:0; /* Remove margins */
+}
+
+/* Style for the MasterComponent container */
+.master-component {
+  display: flex;
+  margin: 50px;
+  height: 600px;
+}
+
+/* Style for the Webcam component container */
+.webcam {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  width: 800px;
+  height: 600px;
+}
+
+video {
+  margin: auto; /* aligns element to center */
+  width: 800px; /*set the width*/
+  height: 600px; /*set the height*/
+}
+
+
+canvas {
+  display: none; /* make the canvas not visible */
+}
+
+.buttons-container {
+  position: relative; /* This is the parent container */
+  flex-direction: column; /* stack them vertically */
+  margin-left: 20px; /* add a margin to separate them from the webcam container */
+  width: 200px;
+  height: 100%;
+  margin-top: auto;
+}
+
+
+.register-ok-button {
+  transition-duration: 0.4s;
+  width:100%;
+  height: 200px;
+  font-size: 30px;
+  background-image: url(https://utils-computervisiondeveloper-tmp.s3.amazonaws.com/imgs/accept_button.png)
+}
+
+.register-cancel-button {
+  transition-duration: 0.4s;
+  width:100%;
+  height: 200px;
+  font-size: 30px;
+  background-image: url(https://utils-computervisiondeveloper-tmp.s3.amazonaws.com/imgs/cancel_button.png)
+}
+
+.login-button {
+  transition-duration: 0.4s;
+  width:100%;
+  height: 200px;
+  font-size: 30px;
+  background-image: url(https://utils-computervisiondeveloper-tmp.s3.amazonaws.com/imgs/login_button.png)
+
+}
+
+.register-button {
+  transition-duration: 0.4s;
+  width:100%;
+  height: 200px;
+  font-size: 30px;
+  background-image: url(https://utils-computervisiondeveloper-tmp.s3.amazonaws.com/imgs/register_new_user_button.png)
+
+}
+
+.goback-button {
+  transition-duration: 0.4s;
+  width:100%;
+  height: 200px;
+  font-size: 30px;
+  background-image: url(https://utils-computervisiondeveloper-tmp.s3.amazonaws.com/imgs/go_back_button.png)
+
+}
+
+.download-button {
+  transition-duration: 0.4s;
+  width:100%;
+  height: 200px;
+  font-size: 30px;
+  background-image: url(https://utils-computervisiondeveloper-tmp.s3.amazonaws.com/imgs/download_logs_icon.png)
+
+}
+
+.login-container {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100px;
+}
+
+.goback-container {
+  position: absolute;
+  top: 400px;
+  left: 0;
+  width: 200px;
+  height: 100px;
+}
+
+.download-container {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 200px;
+  height: 100px;
+}
+
+.register-text-container {
+  width: 195px;
+  height: 50px;
+  position: absolute;
+  top: 80px;
+
+}
+
+.register-text {
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+}
+
+
+.register-ok-container {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 200px;
+  height: 100px;
+}
+
+.register-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+}
+
+.register-cancel-container {
+  position: absolute;
+  top: 400px;
+  left: 0;
+  width: 200px;
+  height: 100px;
+}
+
+.login-button:hover {
+  background-color: white; /* Green */
+  color: black;
+}
+
+.register-ok:hover {
+  background-color: white; /* Green */
+  color: black;
+}
+
+.logout-button {
+  transition-duration: 0.4s;
+  width:100%;
+  height: 200px;
+  font-size: 30px;
+  background-image: url(https://utils-computervisiondeveloper-tmp.s3.amazonaws.com/imgs/logout_button.png)
+}
+
+.logout-button:hover {
+  background-color: white; /* Green */
+  color: black;
+}
+
+.logout-container {
+  z-index: 2;
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 200px;
+  height: 100px;
+} 
+
+.admin-button {
+  transition-duration: 0.4s;
+  width:100%;
+  height: 200px;
+  font-size: 30px;
+  background-image: url(https://utils-computervisiondeveloper-tmp.s3.amazonaws.com/imgs/admin_button.png)
+}
+
+.admin-button:hover {
+  background-color: white; /* Green */
+  color: black;
+}
+
+.admin-container {
+  z-index: 2;
+  position: absolute;
+  top: 400px;
+  left: 0;
+  width: 200px;
+  height: 100px;
+} 
+
+
+
+.hidden {
+  visibility: hidden;
+  transition: visibility 0.05s;
+}
+
+.visible {
+  visibility: visible;
+  transition: visibility 0.5s;
+}
