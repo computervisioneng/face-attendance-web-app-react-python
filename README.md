@@ -62,6 +62,8 @@ Install Python 3.8, create a virtual environment and install requirements.
     virtualenv venv --python=python3.8
 
     source venv/bin/activate
+    
+    pip install cmake==3.25.0
 
     pip install -r requirements.txt
     
