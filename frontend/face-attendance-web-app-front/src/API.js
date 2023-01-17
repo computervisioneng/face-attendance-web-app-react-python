@@ -1,2 +1,2 @@
-const API_ENDPOINT = "http://44.204.6.242";
+const API_ENDPOINT = "YOUR_API_HERE";
 export default API_ENDPOINT;
