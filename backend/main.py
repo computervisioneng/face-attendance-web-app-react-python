@@ -21,7 +21,6 @@ for dir_ in [ATTENDANCE_LOG_DIR, DB_PATH]:
     if not os.path.exists(dir_):
         os.mkdir(dir_)
 
-
 app = FastAPI()
 
 origins = ["*"]
@@ -73,7 +72,7 @@ async def logout(file: UploadFile = File(...)):
         epoch_time = time.time()
         date = time.strftime('%Y%m%d', time.localtime(epoch_time))
         with open(os.path.join(ATTENDANCE_LOG_DIR, '{}.csv'.format(date)), 'a') as f:
-            f.write('{},{},{}\n'.format(user_name, datetime.datetime.now(), 'IN'))
+            f.write('{},{},{}\n'.format(user_name, datetime.datetime.now(), 'OUT'))
             f.close()
 
     return {'user': user_name, 'match_status': match_status}
