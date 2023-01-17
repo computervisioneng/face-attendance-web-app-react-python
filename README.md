@@ -59,7 +59,7 @@ Install Python 3.8, create a virtual environment and install requirements.
     
     cd backend
 
-    virtualenv venv --python=python3
+    virtualenv venv --python=python3.8
 
     source venv/bin/activate
 
