@@ -257,6 +257,10 @@ function Buttons({
     setValue(event.target.value);
   };
 
+  const resetTextBox = () => {
+    setValue("");
+  };
+
   return (
     <div className="buttons-container">
       <div
@@ -379,6 +383,8 @@ function Buttons({
               showWebcam,
               setShowImg
             );
+            resetTextBox();
+
           }}
         ></button>
       </div>
