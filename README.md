@@ -2,7 +2,7 @@
 
 Face attendance + face recognition web app with React and Python!
 
-[![Watch the video](https://img.youtube.com/vi//0.jpg)](https://www.youtube.com/watch?v=)
+[![Watch the video](https://img.youtube.com/vi/yWmW5uEtNws/0.jpg)](https://www.youtube.com/watch?v=yWmW5uEtNws)
 
 ## deployment
 
